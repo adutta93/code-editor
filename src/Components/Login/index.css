@@ -1,0 +1,64 @@
+.login_form_wrapper {
+	background: #282a36;
+	padding: 20px;
+	border-radius: 10px;
+	width: 400px;
+	max-width: 90%;
+}
+
+.form_inputGroup {
+	display: flex;
+	flex-direction: column;
+}
+.main_label {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.main_logo {
+	margin-bottom: 20px;
+}
+
+.inputGroup_roomId,
+.inputGroup_userName {
+	padding: 10px;
+	border-radius: 6px;
+	outline: none;
+	border: none;
+	margin-bottom: 14px;
+	background: #eee;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.btn {
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+._joinBtn {
+	background: #4aed88;
+	width: 100px;
+	margin-left: auto;
+}
+._joinBtn:hover {
+	background: #2b824c;
+}
+
+.room_createInfo {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.create_new_roomId {
+	color: #4aed88;
+	text-decoration: none;
+	border-bottom: 1px solid #4aed88;
+	transition: all 0.3s ease-in-out;
+}
+
+.create_new_roomId:hover {
+	color: #2b824c;
+	border-color: #2b824c;
+}
